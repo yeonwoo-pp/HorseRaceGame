@@ -1,4 +1,4 @@
-package project00_Game;
+package game;
 
 import javax.swing.JButton;      // 버튼 컴포넌트
 import javax.swing.JFrame;       // 메인 윈도우 창
@@ -65,7 +65,7 @@ class RacePanel extends JPanel {
 
     public RacePanel() {
         setBackground(Color.WHITE);        // 배경색 흰색으로 설정
-        ImageIcon icon = new ImageIcon("/Users/mac/Documents/YYW/project00_Game/horse.png"); //저장된 이미지 불러옴
+        ImageIcon icon = new ImageIcon("game/horse.png"); //저장된 이미지 불러옴
         horseImage = icon.getImage(); // 저장된 말 이미지 호출
         
     }
